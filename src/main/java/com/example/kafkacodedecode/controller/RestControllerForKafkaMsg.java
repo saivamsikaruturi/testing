@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/rest/api")
 public class RestControllerForKafkaMsg {
-
     @Autowired
     Producer producer;
     @GetMapping("/producerMsg")
