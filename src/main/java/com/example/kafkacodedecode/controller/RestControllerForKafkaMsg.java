@@ -15,6 +15,6 @@ public class RestControllerForKafkaMsg {
     Producer producer;
     @GetMapping("/producerMsg")
     public void getMessageFromClient(){
-        producer.sendMsgToTopic("Dummy");
+        producer.sendMsgToTopic("Dummy11");
     }
 }
